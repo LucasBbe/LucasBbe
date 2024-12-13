@@ -1,5 +1,4 @@
 ![Hey there, I'm Lucas. I'm a software developer, a maker and infosec enthusiast. Check out my work](https://github.com/LucasBbe/LucasBbe/raw/main/header.gif)
-<iframe src="https://github.com/LucasBbe/LucasBbe/raw/main/GIFCreator/assets/index.html" width="500" height="300"></iframe>
 <img src="./tech.gif" alt="Technology Gif" style="width: 100%; height: 24rem; object-fit: cover;">
 
 # 👋 Hi, I'm Lucas
@@ -18,7 +17,7 @@ I'm a **full stack web developer** with a strong background in tech. Before tran
 
 # 💻 Tech Stack:
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasBbe&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasBbe&theme=radical&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🔧 Technical Skills
 
