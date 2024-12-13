@@ -8,7 +8,7 @@
 I'm a **full stack web developer** with a strong background in tech. Before transitioning into web development, I worked as a Systems and Networks Engineer. I decided to take a new path within tech, specializing in development while staying true to my passion for technology.<br><br>I recently completed an intensive 5-month bootcamp at [**Wild Code School**](https://www.wildcodeschool.com/fr-fr/), where I honed my skills in ReactJS, Express, MySQL, and more.
 
 ## 🌐 Socials:
-[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/damphe#4544) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/damien-goguet-63a749180) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/damien-goguet-63a749180) 
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
