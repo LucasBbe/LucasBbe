@@ -2,8 +2,6 @@
 <img src="./tech.gif" alt="Technology Gif" style="width: 100%; height: 24rem; object-fit: cover;">
 
 # 👋 Hi, I'm Lucas
-<img src="./tech.gif" alt="Technology Gif" style="width: 100%; height: 24rem; object-fit: cover;">
-
 
 I'm a **full stack web developer** with a strong background in tech. Before transitioning into web development, I worked as a Systems and Networks Engineer. I decided to take a new path within tech, specializing in development while staying true to my passion for technology.<br><br>I recently completed an intensive 5-month bootcamp at [**Wild Code School**](https://www.wildcodeschool.com/fr-fr/), where I honed my skills in ReactJS, Express, MySQL, and more.
 
@@ -12,9 +10,14 @@ I'm a **full stack web developer** with a strong background in tech. Before tran
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
+<p align="start"> 
+  Visitor count<br>
+  <img src="https://profile-counter.glitch.me/LucasBbe/count.svg" />
+</p>
+
 # 💻 Tech Stack:
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=dampherrr&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=LucasBbe&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ## 🔧 Technical Skills
 
