@@ -5,7 +5,7 @@
 I'm a software developer. Check out my work below.
 
 ### Animation of Text
-![Text Animation](https://raw.githubusercontent.com/LucasBbe/LucasBbe/main/index.html)
+![Text Animation](https://raw.githubusercontent.com/LucasBbe/LucasBbe/main/GIFCreator/index.html)
 
 # 👋 Hi, I'm Lucas
 
