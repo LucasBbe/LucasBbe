@@ -4,33 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Text Animation</title>
- <style>
-  .typing-effect {
-    font-size: 24px;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 2px solid #000;
-    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
-  }
+  <style>
+    .typing-effect {
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #000;
+      animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+    }
 
-  @keyframes typing {
-    from {
-      width: 0;
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
     }
-    to {
-      width: 100%;
-    }
-  }
 
-  @keyframes blink-caret {
-    50% {
-      border-color: transparent;
+    @keyframes blink-caret {
+      50% {
+        border-color: transparent;
+      }
     }
-  }
-</style>
-<div class="typing-effect">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
+  </style>
 </head>
 <body>
-  <div class="animated-text">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
+  <div class="typing-effect">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
 </body>
 </html>
