@@ -1,6 +1,30 @@
-![Hey there, I'm Lucas. I'm a software developer, a maker and infosec enthusiast. Check out my work](https://github.com/LucasBbe/LucasBbe/raw/main/header.gif)
-<img src="./tech.gif" alt="Technology Gif" style="width: 100%; height: 24rem; object-fit: cover;">
+![header](header.gif)
 
+# Hey there, I'm Lucas! 👋
+
+## I'm a software developer.
+
+Voici une brève présentation :
+
+<script>
+var index = 0;
+var text = "Hey there, I'm Lucas. I'm a software developer. Check out my work.";
+var speed = 75; // Speed of typing
+
+function typeWriter() {
+    if (index < text.length) {
+        document.getElementById("intro").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, speed);
+    }
+}
+
+window.onload = function() {
+    typeWriter();
+}
+</script>
+
+<div id="intro"></div>
 # 👋 Hi, I'm Lucas
 
 I'm a **full stack web developer** with a strong background in tech. Before transitioning into web development, I worked as a Systems and Networks Engineer. I decided to take a new path within tech, specializing in development while staying true to my passion for technology.<br><br>I recently completed an intensive 5-month bootcamp at [**Wild Code School**](https://www.wildcodeschool.com/fr-fr/), where I honed my skills in ReactJS, Express, MySQL, and more.
