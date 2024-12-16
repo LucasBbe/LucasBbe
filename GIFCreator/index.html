@@ -1,31 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- 
-
-    Particles thanks to ParticleJS - https://github.com/VincentGarreau/particles.js/
-    Typewriter thanks to Typewriter.js - https://github.com/tameemsafi/typewriterjs
-
- -->
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script>
-    var typewriter = new Typewriter(document.getElementById('typewriter-text'), {
-        loop: false, // Set to false to write only once
-        delay: 75 // Adjust the speed of typing
-    });
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Animation</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
 
-    typewriter
-        .pauseFor(500) // Delay before starting
-        .typeString('Hey there, I\'m Lucas. I\'m a software developer.') // Your introduction message
-        .pauseFor(1000) // Delay between phrases
-        .typeString('Check out my work.') // Additional message
-        .pauseFor(1000) // Another pause
-        .start();
-</script>
+    .animated-text {
+      font-size: 24px;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 2px solid #000;
+      animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+    }
 
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+
+    @keyframes blink-caret {
+      50% {
+        border-color: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="animated-text">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
+</body>
 </html>
