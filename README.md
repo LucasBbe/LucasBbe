@@ -5,7 +5,31 @@
 I'm a software developer. Check out my work below.
 
 ### Animation of Text
-![Text Animation](https://raw.githubusercontent.com/LucasBbe/LucasBbe/main/GIFCreator/index.html)
+<style>
+  .typing-effect {
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #000;
+    animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+</style>
+<div class="typing-effect">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
 
 # 👋 Hi, I'm Lucas
 
