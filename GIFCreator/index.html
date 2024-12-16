@@ -13,6 +13,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+    var typewriter = new Typewriter(document.getElementById('typewriter-text'), {
+        loop: false, // Set to false to write only once
+        delay: 75 // Adjust the speed of typing
+    });
+
+    typewriter
+        .pauseFor(500) // Delay before starting
+        .typeString('Hey there, I\'m Lucas. I\'m a software developer.') // Your introduction message
+        .pauseFor(1000) // Delay between phrases
+        .typeString('Check out my work.') // Additional message
+        .pauseFor(1000) // Another pause
+        .start();
+</script>
     <style>
         body {
             padding: 0;
