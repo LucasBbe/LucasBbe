@@ -1,4 +1,4 @@
-![Hey there, I'm Lucas. I'm a software developer, a maker and infosec enthusiast. Check out my work](https://github.com/LucasBbe/LucasBbe/raw/main/typing_animation.gif)
+![Hey there, I'm Lucas. I'm a software developer, a maker and infosec enthusiast. Check out my work](https://github.com/LucasBbe/LucasBbe/raw/main/typing_animation_new.gif)
 
 
 <img src="./tech.gif" alt="Technology Gif" style="width: 100%; height: 24rem; object-fit: cover;">
