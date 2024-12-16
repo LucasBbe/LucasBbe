@@ -5,31 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Text Animation</title>
   <style>
-    .typing-effect {
-      font-size: 24px;
+    body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .animated-text {
+      font-size: 36px; /* Augmenter la taille de l'écriture */
+      color: #4A90E2; /* Changer la couleur du texte */
       white-space: nowrap;
       overflow: hidden;
-      border-right: 2px solid #000;
-      animation: typing 3s steps(30, end), blink-caret 0.75s step-end infinite;
+      border-right: 3px solid #000; /* Augmenter la taille du bord droit */
+      animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+      text-align: center; /* Alignement du texte */
+      padding: 10px; /* Ajouter de l'espacement */
+      border-radius: 8px; /* Ajouter un arrondi au texte */
+      background-color: #e6f7ff; /* Changer la couleur de fond */
     }
 
     @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
+      from { width: 0; }
+      to { width: 100%; }
     }
 
     @keyframes blink-caret {
-      50% {
-        border-color: transparent;
-      }
+      50% { border-color: transparent; }
     }
   </style>
 </head>
 <body>
-  <div class="typing-effect">Hey there, I'm Lucas. I'm a software developer. Check out my work.</div>
+  <div class="animated-text">Hey there, I'm Lucas, I'm a software developer. Check out my work below.</div>
 </body>
 </html>
