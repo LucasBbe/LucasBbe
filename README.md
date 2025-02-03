@@ -8,7 +8,7 @@
 I'm a **full stack web developer** with a background in tech.  Before moving into web development, I developed games in lua and was already doing mobile application development. I decided to take a new path within tech, specializing in development while staying true to my passion for technology.<br><br>I recently completed an intensive 5-month bootcamp at [**Wild Code School**](https://www.wildcodeschool.com/fr-fr/), where I honed my skills in ReactJS, Express, MySQL, and more.
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]([https://linkedin.com/in/www.linkedin.com/in/damien-goguet-63a749180](https://www.linkedin.com/in/lucas-boube-5450b02b1/)) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-boube-5450b02b1/) 
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
